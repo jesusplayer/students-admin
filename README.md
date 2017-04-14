@@ -10,8 +10,9 @@ This Site is building using PHP 5.3 and it Use WampServer 2.0 with a database as
     - Password: admin
 
 ## 2- To test in your own desktop for any use 
-  - change the Database informations inside connectdb.php and create a database as you can see in the file db.sql
+  - change the Database informations inside connectdb.php and create a database as you can see in the file **db.sql**
   - By default:
+
      - user: root
      - passord: 
      - database: etudiantsdb
