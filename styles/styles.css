@@ -1,0 +1,76 @@
+body{
+    resize: both;
+}
+.fond{
+    /*background-color: #23262b;*/
+    /*background-color: #204d74;*/
+    background-color: #003333;
+    color: #555;
+
+}
+header{
+    background-color: #003333;
+    margin-bottom: 1px;
+}
+header a{
+  color: rgb(255,204,0); 
+}
+header a:hover{
+    color: #ff1802; 
+}
+.txt-head{  
+    color: rgba(255,255,255,0.8);
+}
+.txt-head-usr{
+    color: rgba(255,255,255,0.6); 
+}
+.mini-alert{
+    padding: 2px;
+}
+.error{
+    display: none;
+    text-align: center;
+}
+.error-login{
+    text-align: center;
+}
+thead{
+    background-color: #204d74;
+    color: white
+}
+.center{
+    text-align: center;
+}
+.center-alert{
+    position: absolute;
+    width: 250px;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+}
+.edit-form{
+    position: absolute;
+    width: 570px;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+    resize: vertical;
+}
+
+.parent-form{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);   
+}
+.form-login{
+    width: 395px;
+    height: 220px;
+    padding: 30px;
+    background-color: rgba(255,255,255,0.9);
+    border:  1px solid rgb(0,0,0);
+
+}
